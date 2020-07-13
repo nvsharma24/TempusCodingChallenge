@@ -2,6 +2,8 @@
 
 This program parses and annotates a VCF file with locus specific information and extracts external annotations from the ExAC database.
 
+Download the .tar file and install AnnotateVCFwithExAC from local directory 
+
 Necessary packages to run the scripts are: 
 VariantAnnotation (Bioconductor - use BiocManager::install("VariantAnnotation") #NOTE:must be used for latest version of R (4.0)#
 httr
