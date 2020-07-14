@@ -2,7 +2,7 @@
 
 This program parses and annotates a VCF file with locus specific information and extracts external annotations from the ExAC database. Results from these analyses can be used to identify putatively deleterious causal variants. 
 
-Download the .tar file from https://github.com/nvsharma24/TempusCodingChallenge/AnnotateVCFwithExAC/ and install AnnotateVCFwithExAC_0.1.0.tar from your local directory 
+Download the .tar file from https://github.com/nvsharma24/TempusCodingChallenge/ and install AnnotateVCFwithExAC_0.1.0.tar from your local directory 
 
 Necessary packages to run the scripts are: 
 - VariantAnnotation (Bioconductor - use BiocManager::install("VariantAnnotation") #NOTE:must be used for latest version of R (4.0)#
