@@ -32,4 +32,4 @@ The columns are as follows:
 AnnotatebyExac() can be used independently to query the ExAC database and generates a dataframe with specific information from that database only. This function is used within annotatevcf() 
 
 query.exac() simply queries the ExAC database and outputs a list of lists with locus specific annotations. This function is used within AnnotatebyExac()
-Refer to AnnotateVCF_v3.R script for more detailed information regarding inputs for AnnotatebyExac and query.exac().
+Refer to AnnotateVCF_v4.R script for more detailed information regarding inputs for AnnotatebyExac and query.exac().
