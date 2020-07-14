@@ -19,7 +19,7 @@ The columns are as follows:
 - "ref_allele" - reference allele
 - "alt_allele" - alternate allele
 - "read_depth" - read depth at locus
-- "num_alt_reads - number of reads supporting the alternative allele
+- "num_alt_reads - number of reads supporting the alternate allele
 - "perc_alt.reads" - percent of reads supporting alternate alelle
 - "perc_ref.reads" - percent of reads supporting reference allele
 - "var_type" - type of variant (snp, indel, complex, etc)
