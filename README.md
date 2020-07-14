@@ -9,7 +9,7 @@ Necessary packages to run the scripts are:
 - httr
 - rlang
 
-annotatevcf() takes in a .vcf files and outputs a dataframe of 13 columns that can be written to a tab delimited file and includes information gathered from both the VCF file and the ExAC database. 
+annotatevcf() takes in a .vcf files and outputs a dataframe of 14 columns that can be written to a tab delimited file and includes information gathered from both the VCF file and the ExAC database. 
 
 The columns are as follows:
 
@@ -19,6 +19,7 @@ The columns are as follows:
 - "ref_allele" - reference allele
 - "alt_allele" - alternate allele
 - "read_depth" - read depth at locus
+- "num_alt_reads - number of reads supporting the alternative allele
 - "perc_alt.reads" - percent of reads supporting alternate alelle
 - "perc_ref.reads" - percent of reads supporting reference allele
 - "var_type" - type of variant (snp, indel, complex, etc)
